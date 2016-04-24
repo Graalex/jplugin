@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<extension version="3.1" type="plugin" group="content">
+    <name>jplugin</name>
+    <author>Grigorchuk Aleksandr</author>
+    <creationDate>April 2016</creationDate>
+    <coryright>Copyright (c) 2016. Grigorchuk Aleksandr.</coryright>
+    <license>MIT license, see LICENSE</license>
+    <authoeEmail></authoeEmail>
+    <authorUrl></authorUrl>
+    <version>1.0.0</version>
+    <description>Joomla plugin starter kit</description>
+    <files>
+        <file plugin="jplugin">jplugin.php</file>
+        <file>index.html</file>
+    </files>
+    <languages></languages>
+    <config>
+        <fields>
+            <fieldset name="basics">
+                <field name="example_field"
+                       type="text"
+                       description="Example field demo."
+                       label="Example field"
+                />
+            </fieldset>
+        </fields>
+    </config>
+</extension>
