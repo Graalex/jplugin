@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<extension version="3.1" type="plugin" group="content">
-    <name>jplugin</name>
+<extension version="3.1" type="plugin" group="content" method="upgrade">
+    <name>PLG_JPLUGIN_NAME</name>
     <author>Grigorchuk Aleksandr</author>
     <creationDate>April 2016</creationDate>
     <coryright>Copyright (c) 2016. Grigorchuk Aleksandr.</coryright>
@@ -8,25 +8,25 @@
     <authoeEmail></authoeEmail>
     <authorUrl></authorUrl>
     <version>1.0.0</version>
-    <description>Joomla plugin starter kit</description>
+    <description>PLG_JPLUGIN_DESCRIPTION</description>
     <files>
         <filename plugin="jplugin">jplugin.php</filename>
         <filename>index.html</filename>
         <folder>language</folder>
     </files>
     <languages folder="language">
-        <language tag="en-GB">en-GB/en-GB.jplugin.ini</language>
-        <language tag="en-GB">en-GB/en-GB.jplugin.sys.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.jplugin.ini</language>
-        <language tag="ru-RU">ru-RU/ru-RU.jplugin.sys.ini</language>
+    	<language tag="ru-RU">ru-RU/ru-RU.plg_content_jplugin.ini</language>
+    	<language tag="ru-RU">ru-RU/ru-RU.plg_content_jplugin.sys.ini</language>
+    	<language tag="en-GB">en-GB/en-GB.plg_content_jplugin.ini</language>
+    	<language tag="en-GB">en-GB/en-GB.plg_content_jplugin.sys.ini</language>
     </languages>
     <config>
-        <fields>
-            <fieldset name="basics">
+        <fields name="params">
+            <fieldset name="basic">
                 <field name="example_field"
                        type="text"
-                       description="Example field demo."
-                       label="Example field"
+                       description="PLG_JPLUGIN_EXAMPLEFIELD_DESCRIPTION"
+                       label="PLG_JPLUGIN_EXAMPLEFIELD_LABEL"
                 />
             </fieldset>
         </fields>
