@@ -10,10 +10,16 @@
     <version>1.0.0</version>
     <description>Joomla plugin starter kit</description>
     <files>
-        <file plugin="jplugin">jplugin.php</file>
-        <file>index.html</file>
+        <filename plugin="jplugin">jplugin.php</filename>
+        <filename>index.html</filename>
+        <folder>language</folder>
     </files>
-    <languages></languages>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.jplugin.ini</language>
+        <language tag="en-GB">en-GB/en-GB.jplugin.sys.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.jplugin.ini</language>
+        <language tag="ru-RU">ru-RU/ru-RU.jplugin.sys.ini</language>
+    </languages>
     <config>
         <fields>
             <fieldset name="basics">
