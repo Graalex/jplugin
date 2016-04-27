@@ -19,6 +19,8 @@
     	<language tag="ru-RU">ru-RU/ru-RU.plg_content_jplugin.sys.ini</language>
     	<language tag="en-GB">en-GB/en-GB.plg_content_jplugin.ini</language>
     	<language tag="en-GB">en-GB/en-GB.plg_content_jplugin.sys.ini</language>
+        <language tag="en-GB">uk-UA/uk-UA.plg_content_jplugin.ini</language>
+        <language tag="en-GB">uk-UA/uk-UA.plg_content_jplugin.sys.ini</language>
     </languages>
     <config>
         <fields name="params">
@@ -26,8 +28,7 @@
                 <field name="example_field"
                        type="text"
                        description="PLG_JPLUGIN_EXAMPLEFIELD_DESCRIPTION"
-                       label="PLG_JPLUGIN_EXAMPLEFIELD_LABEL"
-                />
+                       label="PLG_JPLUGIN_EXAMPLEFIELD_LABEL" />
             </fieldset>
         </fields>
     </config>

@@ -1,7 +1,8 @@
 <?php
 /**
  * pagage   Joomla.Plugin
- * subpacage JPlugin plugin
+ * subpacage jplugin
+ * 
  * copyright (c) 2016. Grigorchuk Aleksandr
  * license MIT
  */
